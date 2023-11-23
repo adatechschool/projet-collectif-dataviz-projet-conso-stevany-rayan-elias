@@ -11,41 +11,44 @@ h3 {
 }
 
 body {
-background-color: #EBE089;
+background-image: url("./astrologie.jpeg");
+background-color:#5EA890;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
 }
 
-#wrapper {
+/*#wrapper {
     padding-top: 15px;
     text-align: justify;
     text-align: center;
     color:gold;
-    background-color: #5EA890;
     width: 30%;
     height:60%;
-    box-sizing: border-box;
-    box-shadow: #5EA890;
     border-radius: 5%;
     margin: auto;
-}
+}*/
 
-#running {
-    padding-top: 15px;
-    text-align: justify;
-    text-align: center;
-    color:gold;
-    background-color: #5EA890;
-    width:30%;
-    box-sizing: border-box;
-    box-shadow: #5EA890;
-    border-radius: 5%;
-    margin: auto;
-}
 
-#astrologie {
+.astrologie {
     display: flex;
     justify-content: center;
-    width: 30%;
-    height: 5%;
-    position: absolute;
-    margin: auto;
+    margin-top: 25%;
+    width: 100%;
+    height: 15%;
+    border-radius: 5% 5% 5%;
+}
+
+button {
+    color: rgb(57, 3, 3);
+}
+.placeholder {
+width: 100px;
+}
+#submit {
+    box-sizing: content-box;
+    border:groove;
+    box-shadow: 5px 5px 5px rgba(255, 166, 0, 0.486);
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
 }
