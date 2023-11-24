@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="charity.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    
     <title>Horoscope</title>
 </head>
 <body>
-    <h3>Horoscope</h3>
+  <header>
+    <nav>
+      <a href="#horoscope jour">Horoscope quotidien</a>
+      <a href="#horoscope">Horoscope hebdomadaire</a>
+    </nav>
+  </header>
+
+    <h1>Horoscope</h1>
+
+  <div class="astrologie">
     <input placeholder="Entrez votre signe astrologique" type="text" id="sign" maxlength="12">
-    <button id="getHoroscopeButton">horoscope quotidien</button>
-    <button id="getHoroscopeSemaineButton">horoscope hebdomadaire</button>
+    <button id="getHoroscopeButton" class="quotidien">horoscope quotidien</button>
+    <button id="getHoroscopeSemaineButton" class="hebdomadaire">horoscope hebdomadaire</button>
     <div id="horoscopeResult"></div>
     <script src="script.js"></script>
+  </div> 
+
 </body>
 </html>
