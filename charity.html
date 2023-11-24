@@ -1,29 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Horoscope astrologique </title>
-  <script src="charity.js"></script>
-  <link href="charity.css" rel="stylesheet">
-  <link rel="icon" href="astrologie.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="charity.css" rel="stylesheet">
+    <title>Horoscope</title>
 </head>
-
 <body>
-  
-   <div id="wrapper">
-     <div id="image" src="" alt=""></div>   
-     <div id="signeAstro"></div>
-     <div id="button"></div>
-   </div>
-
-  <div class="astrologie">
-   <form action="" method="get">
-    <label for="search">Rechercher :</label>
-    <input type="text" id="search" name="astrologie" placeholder="Entrez votre signe astrologique">
-    <button id="submit"> Submit</button>
-   </form> 
-  </div>
-
+    <h3>Horoscope</h3>
+    <input placeholder="Entrez votre signe astrologique" type="text" id="sign" maxlength="12">
+    <button id="getHoroscopeButton">horoscope quotidien</button>
+    <button id="getHoroscopeSemaineButton">horoscope hebdomadaire</button>
+    <div id="horoscopeResult"></div>
+    <script src="script.js"></script>
 </body>
 </html>
