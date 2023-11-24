@@ -31,20 +31,103 @@ input[type=text]:not(:placeholder-shown) {
     filter: brightness(100%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("galaxienav.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+}
+
+
+a {
+    padding-top: 20px;
+    font-family: 'Ephesis', cursive;
+    font-size: 1.8em;
+}
+
+
+a:visited
+{
+    color: #b80175; 
+}
 
 body {
     background-image: url("./astrologie.jpeg");
-    background-color:#5EA890;
+    background-color:rgb(179, 206, 197);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
     }
+
+
+
+h1 {
+    background: url('galaxie.jpg');
+    border-radius: 20px / 15px;
+    box-shadow: 12px 6px 5px  rgb(2, 41, 41);
+    font-size:2.9em;
+    width: 20%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(163, 139, 0);
+    font-family: 'Ephesis', cursive;
+}
+    
 .astrologie {
+    position: relative; /* Indique que la position est relative à sa position normale */
+    bottom: -72px; /* utiliser les valeur top ou bottom pour positionner les éléments*/
     display: flex;
-    justify-content: center;
-    margin-top: 25%;
+    justify-content:center;
     width: 100%;
     height: 15%;
     border-radius: 5% 5% 5%;
 }
+    
+button {
+    color: rgb(57, 3, 3);
+}
+
+
+::placeholder {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text] {
+    width: 160px;
+    padding: 8px 20px 8px 45px;
+    border: white solid 2px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-image: url('search.svg');
+    background-color: transparent;
+    background: rgba(255,255,255,0.4);
+    transition: 0.5s all ease-in-out;
+    filter: brightness(170%);
+}
+input[type=text]:focus,
+input[type=text]:not(:placeholder-shown) {
+    width: 350px;
+    background-color: transparent;
+    background: rgba(255,255,255,0.4);
+    filter: brightness(100%);
+}
+
+
