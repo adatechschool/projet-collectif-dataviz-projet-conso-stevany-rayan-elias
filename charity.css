@@ -94,11 +94,14 @@ h1 {
     height: 15%;
     border-radius: 5% 5% 5%;
 }
+<<<<<<< HEAD
     
 button {
     color: rgb(57, 3, 3);
 }
 
+=======
+>>>>>>> 2771ddfdcee895ff6ae6e89fd99fa0f488cd0e09
 
 ::placeholder {
     width: 100%;
