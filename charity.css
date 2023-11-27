@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
 }
+<<<<<<< HEAD
 
 header nav {
     display: flex;
@@ -29,10 +31,18 @@ a:visited
     
 }
 
+=======
+>>>>>>> d9491d3c0708a27ef4f91adf0b97a7956d84d0d1
 body {
-    background-image: url("./astrologie.jpeg");
-    background-color:rgb(179, 206, 197);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-image: url("pngegg.png") no-repeat;
+}
+.image {
+  
+    background-color: transparent;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-attachment: fixed;
     background-size: cover;
     }
@@ -60,9 +70,16 @@ h1 {
     height: 15%;
     border-radius: 5% 5% 5%;
     
+=======
+    width: 100px;
+    position:fixed;
+    bottom: 0;
+    right: 135%;
+    height: 100vh;
+>>>>>>> d9491d3c0708a27ef4f91adf0b97a7956d84d0d1
 }
 
-::placeholder {
+.wrapper {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -70,7 +87,11 @@ h1 {
     align-items: center;
 }
 
+<<<<<<< HEAD
 input[type=text] {
+=======
+.wrapper input[type=text] {
+>>>>>>> d9491d3c0708a27ef4f91adf0b97a7956d84d0d1
     width: 160px;
     padding: 8px 20px 8px 45px;
     border: white solid 2px;
@@ -79,20 +100,128 @@ input[type=text] {
     background-position: 2% 50%;
     background-repeat: no-repeat;
     background-size: 30px;
-    background-image: url('search.svg');
     background-color: transparent;
-    background: rgba(255,255,255,0.4);
     transition: 0.5s all ease-in-out;
     filter: brightness(170%);
+    z-index: 2;
 }
-input[type=text]:focus,
-input[type=text]:not(:placeholder-shown) {
+
+.wrapper input[type=text]:focus,
+.wrapper input[type=text]:not(:placeholder-shown) {
     width: 350px;
     background-color: transparent;
-    background: rgba(255,255,255,0.4);
     filter: brightness(100%);
 }
+.quotidien {
+    background:transparent;
+    border: white solid 2px;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 8px 20px 8px 45px;
+    background-size: 25px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    bottom: 250px;
+    z-index: 2;
+    cursor: pointer;
+}
+.quotidien::after{
+    content:'';
+    background:black;
+    width: 100%;
+    height:100%;
+    border-radius: 30px ;
+    position:absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:-1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
 
+}
+.quotidien:hover{
+    color:white ;
+}
+.quotidien:hover::after{
+    top: 50%;
+    opacity: 1;
+}
 
+.hebdomadaire {
+    background:transparent;
+    border: white solid 2px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-size: 25px;
+    padding: 8px 20px 8px 45px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    bottom: 295px;
+    z-index: 2;
+    cursor:pointer
+}
+.hebdomadaire::after{ 
+    content:'';
+    background:black;
+    width: 100%;
+    height:100%;
+    border-radius: 30px ;
+    position:absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:-1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+.hebdomadaire:hover{ 
+    color:white ;
+}
+.hebdomadaire:hover::after{ 
+    top: 50%;
+    opacity: 1;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;            
+}
+.content h1{
+    font-size: 220px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    position:absolute;
+    bottom: 470px;
+    color:white;
+    text-shadow: 0 0 5px white;
+    line-height: 80px;
+    letter-spacing: -1px;
+    line-height: 1; 
+    text-align: center;
+    z-index: 1;
+     }
+
+.content p{
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight:100;
+    line-height: 25px;
+    position:absolute;
+    bottom: 420px;
+    color: aliceblue;
+    z-index: 4;
+    text-align: center;
+}
 
 
