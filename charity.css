@@ -1,38 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
 }
-<<<<<<< HEAD
-
-header nav {
-    display: flex;
-    justify-content: space-around;
-    background-image: url("galaxienav.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: 70px;
-    margin: 0;
-}
-
-
-a {
-    padding-top: 20px;
-    font-family: 'Ephesis', cursive;
-    font-size: 1.8em;
-}
-
-
-a:visited
-{
-    color: #b80175;
-    
-}
-
-=======
->>>>>>> d9491d3c0708a27ef4f91adf0b97a7956d84d0d1
 body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
@@ -42,41 +14,11 @@ body {
   
     background-color: transparent;
     background-repeat: no-repeat;
-<<<<<<< HEAD
-    background-attachment: fixed;
-    background-size: cover;
-    }
-
-h1 {
-    background: url('galaxie.jpg');
-    border-radius: 20px / 15px;
-    box-shadow: 12px 6px 5px  rgb(2, 41, 41);
-    font-size:2.9em;
-    width: 20%;
-    margin: auto;
-    margin-top: 10%;
-    text-align: center;
-    text-decoration: underline;
-    color:rgb(163, 139, 0);
-    font-family: 'Ephesis', cursive;
-}
-    
-.astrologie {
-    position: relative; /* Indique que la position est relative à sa position normale */
-    bottom: -72px; /* utiliser les valeur top ou bottom pour positionner les éléments*/
-    display: flex;
-    justify-content:center;
-    width: 100%;
-    height: 15%;
-    border-radius: 5% 5% 5%;
-    
-=======
     width: 100px;
     position:fixed;
     bottom: 0;
     right: 135%;
     height: 100vh;
->>>>>>> d9491d3c0708a27ef4f91adf0b97a7956d84d0d1
 }
 
 .wrapper {
@@ -85,13 +27,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Dancing Script';
+
 }
 
-<<<<<<< HEAD
-input[type=text] {
-=======
 .wrapper input[type=text] {
->>>>>>> d9491d3c0708a27ef4f91adf0b97a7956d84d0d1
+    margin-bottom: 50px;
     width: 160px;
     padding: 8px 20px 8px 45px;
     border: white solid 2px;
@@ -129,7 +70,7 @@ input[type=text] {
 }
 .quotidien::after{
     content:'';
-    background:black;
+    background:white;
     width: 100%;
     height:100%;
     border-radius: 30px ;
@@ -143,7 +84,7 @@ input[type=text] {
 
 }
 .quotidien:hover{
-    color:white ;
+    color:black ;
 }
 .quotidien:hover::after{
     top: 50%;
@@ -167,7 +108,7 @@ input[type=text] {
 }
 .hebdomadaire::after{ 
     content:'';
-    background:black;
+    background:white;
     width: 100%;
     height:100%;
     border-radius: 30px ;
@@ -180,7 +121,7 @@ input[type=text] {
     transition: top 0.5s, opacity 0.5s;
 }
 .hebdomadaire:hover{ 
-    color:white ;
+    color:black ;
 }
 .hebdomadaire:hover::after{ 
     top: 50%;
@@ -192,7 +133,8 @@ input[type=text] {
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content:center;            
+    justify-content:center;   
+    font-family:'Dancing Script', cursive;         
 }
 .content h1{
     font-size: 220px;
@@ -224,4 +166,22 @@ input[type=text] {
     text-align: center;
 }
 
+.conteneur {
+   
+    color:white;
+    background: rgb(227,173,219);
+    background: linear-gradient(90deg, rgba(227,173,219,1) 25%, rgba(185,127,173,1) 53%, rgba(127,158,186,1) 99%);
+    position: relative;
+    bottom: 175px;
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+    height: 20%;
+    border-radius: 12px 15px 22px;
+    box-shadow: 2px 2px 2px;
+    text-align: justify;
+    padding: 12px;
+    border: groove;
+    
+}
 
