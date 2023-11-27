@@ -20,8 +20,6 @@ a {
     padding-top: 20px;
     font-family: 'Ephesis', cursive;
     font-size: 1.8em;
-
-
 }
 
 
@@ -38,8 +36,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     }
-
-
 
 h1 {
     background: url('galaxie.jpg');
@@ -73,6 +69,7 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 input[type=text] {
     width: 160px;
     padding: 8px 20px 8px 45px;
