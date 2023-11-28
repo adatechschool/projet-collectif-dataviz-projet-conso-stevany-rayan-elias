@@ -167,7 +167,7 @@ body {
 }
 
 .conteneur {
-   
+    
     color:white;
     background: rgb(227,173,219);
     background: linear-gradient(90deg, rgba(227,173,219,1) 25%, rgba(185,127,173,1) 53%, rgba(127,158,186,1) 99%);
@@ -185,3 +185,10 @@ body {
     
 }
 
+
+
+@media screen and (min-width: 600px) {
+    .conteneur {
+      display: block;
+    }
+  }

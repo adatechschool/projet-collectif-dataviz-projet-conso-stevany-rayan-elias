@@ -56,3 +56,4 @@ document.addEventListener("DOMContentLoaded", function () {
     getHoroscope('hebdomadaire'); // Appel avec le type "hebdomadaire"
   });
 });
+ 
