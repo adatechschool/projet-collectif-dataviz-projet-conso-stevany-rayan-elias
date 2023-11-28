@@ -47,6 +47,21 @@ document.addEventListener("DOMContentLoaded", function () {
       // Si le signe de l'utilisateur n'est pas valide
       horoscopeResult.textContent = "Veuillez entrer un signe astrologique valide.";
     }
+<<<<<<< HEAD
+    // Ajoutez des écouteurs d'événements aux boutons pour appeler la fonction getHoroscope lorsque les boutons sont cliqués
+    getHoroscopeButton.addEventListener("click", function () {
+      getHoroscope('quotidien'); // Appel avec le type "quotidien"
+    });
+    getHoroscopeSemaineButton.addEventListener("click", function () {
+      getHoroscope('hebdomadaire'); // Appel avec le type "hebdomadaire"
+    });
+
+    document.getElementById(".horoscopeResult").style.display="block"
+    document.querySelector(".error").style.display="none"
+
+    
+  });
+=======
   }
   // Ajoutez des écouteurs d'événements aux boutons pour appeler la fonction getHoroscope lorsque les boutons sont cliqués
   getHoroscopeButton.addEventListener("click", function () {
@@ -56,4 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
     getHoroscope('hebdomadaire'); // Appel avec le type "hebdomadaire"
   });
 });
+<<<<<<< HEAD
  
+=======
+>>>>>>> 786391c386bc5ff4d0518f265cc9b97e05fa4943
+>>>>>>> c69fc5df6534a74b243d99f6fce5649e7c669a48
