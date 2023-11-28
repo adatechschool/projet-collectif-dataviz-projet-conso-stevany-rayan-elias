@@ -55,4 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
     getHoroscopeSemaineButton.addEventListener("click", function () {
       getHoroscope('hebdomadaire'); // Appel avec le type "hebdomadaire"
     });
+
+    document.getElementById(".horoscopeResult").style.display="block"
+    document.querySelector(".error").style.display="none"
+
+    
   });
